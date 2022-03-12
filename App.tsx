@@ -1,21 +1,21 @@
-import { StatusBar } from "expo-status-bar";
+import "react-native-gesture-handler";
 import { SafeAreaView, StyleSheet } from "react-native";
-import SearchPage from "./pages/search/SearchPage";
+import Navigation from "./navigation/Navigation";
+import React from "react";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <StatusBar style="auto" />
-      <SearchPage />
-    </SafeAreaView>
+    <GestureHandlerRootView style={styles.container}>
+      <SafeAreaView style={styles.container}>
+        <Navigation />
+      </SafeAreaView>
+    </GestureHandlerRootView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
   },
 });

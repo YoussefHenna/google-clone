@@ -15,3 +15,8 @@ export const useIsCompactDevice = (): boolean => {
   const [screenData] = useState(Dimensions.get("screen"));
   return screenData.width < 500 || screenData.height < 500;
 };
+
+export const useAspectRatio = (): number => {
+  const [screenData] = useState(Dimensions.get("screen"));
+  return screenData.width / screenData.height;
+};

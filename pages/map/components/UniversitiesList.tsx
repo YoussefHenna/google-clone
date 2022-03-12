@@ -16,7 +16,7 @@ interface UniversitiesListProps {
 }
 
 const UniversitiesList: React.FC<UniversitiesListProps> = (props) => {
-  const snapPoints = useMemo(() => [90, "60%"], []);
+  const snapPoints = useMemo(() => [90, "70%"], []);
 
   return (
     <View pointerEvents="box-none" style={styles.bottomSheetContainer}>

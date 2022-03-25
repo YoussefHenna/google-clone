@@ -37,7 +37,7 @@ const SearchPage: React.FC = () => {
     <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
       <View style={styles.mainContainer}>
         <Image
-          source={require("../../assets/google_logo.png")}
+          source={require("../../../assets/google_logo.png")}
           style={styles.googleLogo}
         />
 

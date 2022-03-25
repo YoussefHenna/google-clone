@@ -37,15 +37,6 @@ export const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "rgba(0,0,0,0.1)",
   },
-  uniItemTopContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-  },
-  uniImage: {
-    width: 100,
-    height: 50,
-    resizeMode: "contain",
-  },
   uniName: {
     fontSize: 14,
     marginStart: 20,

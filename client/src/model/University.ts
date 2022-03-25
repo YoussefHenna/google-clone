@@ -4,5 +4,5 @@ export interface University {
   lat: number;
   lng: number;
   addressFmt: string;
-  image: string;
+  images: string[];
 }

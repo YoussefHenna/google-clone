@@ -18,7 +18,7 @@ const SearchBar: React.FC<SearchBarProps> = (props) => {
         ]}
       >
         <Image
-          source={require("../assets/search.png")}
+          source={require("../../assets/search.png")}
           style={styles.searchIcon}
         />
         <TextInput

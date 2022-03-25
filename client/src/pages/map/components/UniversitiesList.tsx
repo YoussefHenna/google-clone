@@ -17,7 +17,7 @@ interface UniversitiesListProps {
 }
 
 const UniversitiesList: React.FC<UniversitiesListProps> = (props) => {
-  const snapPoints = useMemo(() => [90, "70%"], []);
+  const snapPoints = useMemo(() => [70, "90%"], []);
 
   return (
     <View pointerEvents="box-none" style={styles.bottomSheetContainer}>
@@ -35,6 +35,7 @@ const UniversitiesList: React.FC<UniversitiesListProps> = (props) => {
           }
           data={props.universities}
           keyExtractor={(item) => item.name}
+          contentContainerStyle={{ paddingBottom: 20 }}
           renderItem={(item) => {
             return <UniversityItem university={item.item} />;
           }}

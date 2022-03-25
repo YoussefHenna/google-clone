@@ -7,6 +7,7 @@ import MapView, { Marker } from "react-native-maps";
 import { University } from "../../model/University";
 import { getUniversities } from "../../remote/api";
 import UniversitiesList from "./components/UniversitiesList";
+import UniversityItem from "./components/UniversityItem";
 
 const MapPage: React.FC = () => {
   const route = useRoute<RouteProp<RootStackParamList, "Map">>();

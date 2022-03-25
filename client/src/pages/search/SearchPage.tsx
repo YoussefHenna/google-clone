@@ -7,7 +7,6 @@ import SearchBar from "../../components/SearchBar";
 import { Location } from "../../model/Location";
 import { RootStackParamList } from "../../navigation/Navigation";
 import { getAllLocations } from "../../remote/api";
-import UniversitiesList from "../map/components/UniversitiesList";
 import { styles } from "./styles";
 
 const SearchPage: React.FC = () => {

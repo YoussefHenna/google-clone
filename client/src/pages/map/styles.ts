@@ -28,27 +28,35 @@ export const styles = StyleSheet.create({
   },
 
   uniItemContainer: {
-    width: "90%",
-    maxWidth: 400,
-    marginTop: 10,
+    marginTop: 20,
     alignSelf: "center",
     borderRadius: 15,
-    padding: 15,
     borderWidth: 1,
     borderColor: "rgba(0,0,0,0.1)",
   },
+  uniItemBottomContainer: {
+    padding: 15,
+  },
   uniName: {
     fontSize: 14,
-    marginStart: 20,
     color: "black",
   },
   uniAbbv: {
     fontSize: 12,
     color: "rgba(0,0,0,0.5)",
-    marginStart: 20,
   },
   uniAdd: {
     fontSize: 12,
     color: "rgba(0,0,0,0.8)",
+  },
+  uniImageCarousel: {
+    borderTopEndRadius: 15,
+    borderTopStartRadius: 15,
+    overflow: "hidden",
+  },
+  uniImage: {
+    resizeMode: "cover",
+    width: "100%",
+    height: 150,
   },
 });
